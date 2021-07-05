@@ -6,13 +6,6 @@ const chack_length_of_string = (string) => {
     if(string.length > 0) {
         longest_string = string[0];
         longest_string_length = string[0].length;
-        // for (let item of string) {
-        //     if(longest_string_length < item.length) {
-        //         longest_string_length = item.length;
-        //         longest_string = item;
-        //     }   
-        // }
-        // console.log('the longets string is', longest_string, 'length is equal to:', longest_string_length);
         string.array.forEach(element => {
             if(element.length > longest_string_length) {
                 longest_string_length = element.length; 
