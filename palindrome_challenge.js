@@ -1,10 +1,12 @@
-let text = 'anna'
+let text = 'Anna'
+let text_2 = 'Jonh'
 
-const polindrpolindromizeromizeer = (variable) => {
+const polindromizer = (variable) => {
     variable = variable.toLowerCase()
-    return variable.split('').reverse().join('')
+    let newVariable =  variable.split('').reverse().join('')
+    newVariable === variable ? console.log(true) : console.log(false);
+    // return variable.split('').reverse().join('')
 }
 
-let newText =  polindromizer(text)
-
-console.log(newText)
+polindromizer(text)
+polindromizer(text_2)
