@@ -1,5 +1,6 @@
 let text = ['Comprehensive', 'community-driven', 'list', 'of', 'essential', 'JavaScript', 'interview', 'questions']
 let empty_arr = []
+
 const chack_length_of_string = (string) => {
     let longest_string_length;
     let longest_string;
