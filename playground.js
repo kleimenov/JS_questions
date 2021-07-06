@@ -12,6 +12,10 @@ let cars = [{
     brand: 'chevy',
     model: 'camaro',
     color: ['white', 'green', 'blue']
+},
+{
+    model: 'mustang',
+    color: ['white', 'green', 'blue']
 }]
 
 // for(let item in cars) {
@@ -21,7 +25,11 @@ let cars = [{
 //     console.log(item)
 // }
 
-var i = 10
-var i = 'string'
+cars.map(item => console.log(item))
+cars.forEach(item => console.log(item))
 
-console.log(i)
+cars.forEach(item => {
+    item.brand ? item.brand = item.brand : item.brand = 'ford sport';
+})
+cars.forEach(item => console.log(item))
+
